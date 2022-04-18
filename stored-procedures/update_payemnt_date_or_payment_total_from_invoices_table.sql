@@ -1,5 +1,5 @@
 
-use sql_invoicing;
+use invoicing;
 
 DROP PROCEDURE IF EXISTS update_payemnt_date_or_payment_total_from_invoices_table;
 

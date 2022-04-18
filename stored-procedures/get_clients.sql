@@ -1,10 +1,10 @@
-USE sql_invoicing;
+USE invoicing;
 
 DELIMITER $$
 
 CREATE PROCEDURE get_clients()
 BEGIN
 	SELECT * FROM clients;
-END
+END $$
 
 DELIMITER ;

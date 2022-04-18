@@ -1,4 +1,4 @@
-USE sql_invoicing;
+USE invoicing;
 DROP PROCEDURE IF EXISTS get_invoices_by_client;
 DELIMITER $$
 
